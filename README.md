@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# This project was a Capstone Project given to REACT DEVELOPER PATH GROUP 79
 
-This project was a Capstone Project given to REACT DEVELOPER PATH GROUP 79
-
-# To Contribute to this project, follow this steps:
+## To Contribute to this project, follow this steps:
 
 ## Clone the project:
 
