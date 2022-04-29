@@ -45,6 +45,6 @@ The following contains the project folder structure for your use
 
 Note: If you want to work on another feature after your first commit, you are advised to always git pull to pull new changes from git hub, this will make you have the current changes on github to be on your local system.
 
-### `git check -b <name of your new branch/feature`
+### `git checkout -b <name of your new branch>
 
 Always create new branch for any feature you want to work on.
