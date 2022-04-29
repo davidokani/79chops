@@ -1,4 +1,4 @@
-# This project was a Capstone Project given to REACT DEVELOPER PATH GROUP 79
+# Capstone SIde Hustle Project given to REACT DEVELOPER PATH GROUP 79
 
 ## To Contribute to this project, follow this steps:
 
