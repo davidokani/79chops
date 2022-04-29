@@ -6,6 +6,7 @@ import BackDrop from './components/BackDrop/BackDrop';
 //import { render } from '@testing-library/react';
 //import sideDrawer from './components/SideDrawer/SideDrawer';
 //import backDrop from './components/BackDrop/BackDrop';
+import Footer from './components/footer/Footer';
 
 class App extends Component {
   state = {
@@ -34,9 +35,20 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backDrop}
         <main style={{ marginTop: '95px' }}>
+
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
+          <p>This is the page content!</p>
           <p>This is the page content!</p>
         </main>
-
+        <Footer />
       </div>
     );
   }
