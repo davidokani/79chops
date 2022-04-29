@@ -40,3 +40,11 @@ The following contains the project folder structure for your use
 2. Inside the src folder, we have components where other components resides, like the Navbar, Footer etc
 
 3. Inside the src folder, we also have pages folder which contains the Home, About, Contact, Product etc. All the About page, Contact Page and Product Page should be nexted inside the Home Page which serves as the Parent Components to them
+
+### `git pull`
+
+Note: If you want to work on another feature after your first commit, you are advised to always git pull to pull new changes from git hub, this will make you have the current changes on github to be on your local system.
+
+### `git check -b <name of your new branch/feature`
+
+Always create new branch for any feature you want to work on.
