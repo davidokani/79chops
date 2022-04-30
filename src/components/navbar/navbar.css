@@ -18,15 +18,14 @@
 }
 
 .logo {
-  padding-left: 2.5rem;
+  padding: 10px 10px 70px 90px;
   font-family: 'Water Brush', cursive;
 }
 
 .logo a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
 }
 
 .space {

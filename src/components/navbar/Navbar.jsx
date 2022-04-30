@@ -9,9 +9,9 @@ const Navbar = (props) => (
       <div className='navbar-btn'>
         <ToggleButton click={props.drawerClickHandler} />
       </div>
-      <div className='logo'>
+      <h1 className='logo'>
         <Link to='/'>79Chops</Link>
-      </div>
+      </h1>
       <div className='space'></div>
       <div className='links'>
         <ul>
