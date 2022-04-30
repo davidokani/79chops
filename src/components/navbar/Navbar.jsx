@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ToggleButton from '../SideDrawer/ToggleButton'
 import './navbar.css'
 
@@ -9,22 +10,22 @@ const Navbar = (props) => (
         <ToggleButton click={props.drawerClickHandler} />
       </div>
       <div className='logo'>
-        <a href='/'>79Chops</a>
+        <Link to='/'>79Chops</Link>
       </div>
       <div className='space'></div>
       <div className='links'>
         <ul>
           <li>
-            <a href='/'>Home</a>
+            <Link to='/'>Home</Link>
           </li>
           <li>
-            <a href='/'>Products</a>
+            <Link to='/about'>About</Link>
           </li>
           <li>
-            <a href='/'>Contact</a>
+            <Link to='/contact'>Contact</Link>
           </li>
           <li>
-            <a href='/'>About</a>
+            <Link to='/products'>Products</Link>
           </li>
         </ul>
       </div>
