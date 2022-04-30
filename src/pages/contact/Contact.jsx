@@ -6,6 +6,9 @@ const Contact = () => {
   return (
     <div3>
       <h1>Contact page</h1>
+      <div className='contact-pic'>
+        <img src='/images/pic2.jpg' alt='img2' />
+      </div>
       <p>
         We hope to always serve you the best at every meal eaten here because
         the food eaten here by our customers are made from some of the best

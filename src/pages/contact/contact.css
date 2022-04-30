@@ -11,3 +11,25 @@ p {
   margin: 5px;
   padding: 16px 12px;
 }
+
+.contact-pic {
+  flex: 50%;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 800px) {
+
+  .contact-pic img {
+    width: 360px;
+    align-content: center;
+    padding: 10px;
+  }
+
+  .contact-pic {
+    flex: 50%;
+    width: fit-content;
+  }
+}
