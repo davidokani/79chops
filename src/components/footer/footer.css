@@ -6,6 +6,7 @@
   background-color: #521751;
   color: white;
 }
+
 .leftFooter {
   flex: 2;
 }
@@ -39,6 +40,7 @@
   padding-right: 10px;
 }
 .contactUl {
+  width: 100%;
   padding-left: 10px;
   margin-top: 10px;
   list-style: none;
