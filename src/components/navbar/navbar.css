@@ -65,6 +65,10 @@
 }
 
 @media (min-width: 769px) {
+  .navbar {
+    height: 110px;
+  }
+
   .navbar-btn {
     display: none;
   }

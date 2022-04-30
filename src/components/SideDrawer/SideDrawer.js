@@ -3,9 +3,9 @@ import React from 'react'
 import './SideDrawer.css'
 
 const sideDrawer = (props) => {
-  let drawerClasses = 'side-drawer'
+  let drawerClasses = 'side-drawer';
   if (props.show) {
-    drawerClasses = 'side-drawer open'
+    drawerClasses = 'side-drawer open';
   }
   return (
     <nav className={drawerClasses}>
@@ -24,7 +24,7 @@ const sideDrawer = (props) => {
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default sideDrawer
+export default sideDrawer;

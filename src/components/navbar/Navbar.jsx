@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import ToggleButton from '../SideDrawer/ToggleButton'
-import './navbar.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import ToggleButton from '../SideDrawer/ToggleButton';
+import './navbar.css';
 
 const Navbar = (props) => (
   <header className='navbar'>
@@ -33,4 +33,4 @@ const Navbar = (props) => (
   </header>
 )
 
-export default Navbar
+export default Navbar;
