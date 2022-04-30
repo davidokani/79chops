@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
 
+
 const Contact = () => {
   return (
     <div3>
@@ -8,7 +9,8 @@ const Contact = () => {
       <p>
         We hope to always serve you the best at every meal eaten here because
         the food eaten here by our customers are made from some of the best
-        cooks in the country
+        cooks in the country. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere suscipit tempore, dignissimos sit architecto facilis exercitationem beatae. Culpa quo rem eveniet molestias deserunt enim voluptatibus modi molestiae? Ipsa, tempore!
+
       </p>
       <p>To contact or reach out to us,please see the details below: </p>
       <h3>79chops contact form</h3>
@@ -84,13 +86,13 @@ const Contact = () => {
         <button type='submit'>Subscribe</button>
       </fieldset>
 
-      <h3>Stay in Touch!</h3>
+      {/* <h3>Stay in Touch!</h3>
       <a href='#'>Instagram</a>
       <br />
       <a href='#'>Twitter</a>
       <br />
       <a href='#'>Linkedln</a>
-      <br />
+      <br /> */}
     </div3>
   )
 }
