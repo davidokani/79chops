@@ -29,7 +29,8 @@
 @media (max-width: 800px) {
 
   img {
-    width: 350px;
+    width: 360px;
+    align-content: center;
   }
 
   .col-image,
