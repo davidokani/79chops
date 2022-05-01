@@ -38,6 +38,7 @@ const footer = () => {
             <li className='contactLi'>Oluwatomilola Faith</li>
             <li className='contactLi'>Jumoke .N</li>
             <li className='contactLi'>Seun David</li>
+            <li className='contactLi'>Basil Odoh</li>
           </ul>
         </div>
       </div>

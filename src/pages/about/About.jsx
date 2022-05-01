@@ -6,6 +6,11 @@ const About = () => {
     <div className='App'>
       <div className='content'>
         <h1>About Us</h1>
+        <div className='talk'>
+          <p>
+            79Chops Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta itaque autem est illum minima voluptatibus sunt repudiandae. Aliquam doloremque soluta harum autem iste inventore, facilis, accusantium enim iure voluptates quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore cum sint eum. Dignissimos sed soluta architecto deleniti odit harum, blanditiis ab quaerat distinctio in tempore fugiat, sequi nobis quod. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ad repellendus qui tempora quae totam optio at nobis nisi officiis eius, eos pariatur possimus dolore, autem amet laudantium facilis dolorum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi rerum, facilis sunt nam tempore maxime nobis itaque excepturi autem perspiciatis, repellat sapiente fugit impedit ut molestias dolorum voluptas obcaecati corrupti!
+          </p>
+        </div>
         <div className='grid-flex'>
           <div className='col-image'>
             <img src='/images/pic1.jpg' alt='img1' />

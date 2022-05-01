@@ -4,95 +4,65 @@ import './contact.css'
 
 const Contact = () => {
   return (
-    <div3>
+    <div>
       <h1>Contact page</h1>
+      <div className='contact-pic'>
+        <img src='/images/pic2.jpg' alt='img2' />
+      </div>
       <p>
         We hope to always serve you the best at every meal eaten here because
         the food eaten here by our customers are made from some of the best
-        cooks in the country
+        cooks in the country. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Quisquam facere suscipit tempore, dignissimos sit architecto
+        facilis exercitationem beatae. Culpa quo rem eveniet molestias deserunt
+        enim voluptatibus modi molestiae? Ipsa, tempore!
       </p>
       <p>To contact or reach out to us,please see the details below: </p>
       <h3>79chops contact form</h3>
-      <fieldset>
-        <label for='name'>Name: </label>
-        <br />
-        <input
-          type='text'
-          name=''
-          id='name'
-          value=''
-          required=''
-          placeholder='your full name'
-        />
-        <br />
+      <div class='content-input'>
+        <div class='container'>
+          <form action=''>
+            <label for='name'>Name</label>
+            <br />
 
-        <label for='company'>Company: </label>
-        <br />
-        <input
-          type='text'
-          name=''
-          id='company'
-          value=''
-          required=''
-          placeholder='your company'
-        />
-        <br />
+            <input
+              type='text'
+              placeholder='Enter Name'
+              class='contact__input'
+              required
+            />
+            <br />
 
-        <label for='email'>Email: </label>
-        <br />
-        <input
-          type='email'
-          name=''
-          id='email'
-          value=''
-          required=''
-          placeholder='your email'
-        />
-        <br />
-        <br />
+            <label for='email'>Email</label>
+            <br />
 
-        <label for='contact'>Telephone: </label>
-        <br />
-        <input
-          type='number'
-          name=''
-          id='contact'
-          value=''
-          required=''
-          placeholder='your telephone'
-        />
-        <br />
-        <br />
+            <input
+              type='mail'
+              placeholder='Enter Email'
+              class='contact__input'
+              required
+            />
+            <br />
 
-        <textarea
-          placeholder='your message to us...'
-          class='box'
-          cols='30'
-          rows='10'
-          required
-        ></textarea>
-        <br />
-        <br />
-        <button type='submit'>Submit Message</button>
-        <h3>Subscribe!</h3>
+            <label for='message'>Messeage</label>
+            <br />
 
-        <label for='mail'>Email Address: </label>
-        <br />
-        <input type='text' name='' id='mail' value='' required='' />
-        <br />
+            <textarea
+              name=''
+              id=''
+              cols='25'
+              rows='10'
+              class='contact__input'
+              required
+            ></textarea>
 
-        <br />
-        <button type='submit'>Subscribe</button>
-      </fieldset>
-      <h3>Stay in Touch!</h3>
-      <Link to='#'>Instagram</Link>
-      <br />
-      <Link to='#'>Twitter</Link>
-      <br />
-      <Link to='#'>Linkedln</Link>
-      <br />
-    </div3>
+            <br />
+
+            <input type='submit' value='Send' class='contact_input button' />
+          </form>
+        </div>
+      </div>
+    </div>
   )
 }
-
 export default Contact

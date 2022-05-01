@@ -1,5 +1,7 @@
-div3 {
-  background-color: blanchedalmond;
+@import url('https: //images.app.goo.gl/XF4Cxi6xhcGsgNpT9');
+
+fieldset {
+  background-image: url('https: //images.app.goo.gl/XF4Cxi6xhcGsgNpT9');
 }
 
 h1,
@@ -10,4 +12,86 @@ h3 {
 p {
   margin: 5px;
   padding: 16px 12px;
+}
+
+.contact-pic,
+.content-input input,
+textarea {
+  flex: 50%;
+  border-radius: 10px;
+  padding-left: 20px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+
+  width: 20px;
+
+  border-radius: .5rem;
+
+  padding: 16px 12px;
+
+  /* padding-left: 13px;
+
+  padding-right: 15px; */
+
+  font-size: 1rem;
+
+  color: var(--black);
+
+  text-transform: none;
+
+  margin-bottom: 1rem;
+}
+
+.content-input input,
+textarea {
+
+  background: #eee;
+
+  border-radius: 2rem;
+
+  padding: 1rem;
+
+  font-size: 1.6rem;
+
+  color: var(--black);
+
+  text-transform: none;
+
+  margin-bottom: 1rem;
+
+}
+
+@media (max-width: 800px) {
+
+  .contact-pic img {
+    width: 360px;
+    align-content: center;
+    padding: 10px;
+  }
+
+  .contact-pic {
+    flex: 50%;
+    width: fit-content;
+  }
+
+  .content-input input {
+    width: fit-content;
+    max-height: 50px;
+    margin: 0px 15px;
+    font-size: 12px;
+  }
+
+  .container {
+    align-content: center;
+  }
+
+  textarea {
+    width: fit-content;
+    max-height: 60px;
+    margin: 0px 15px;
+    font-size: 12px;
+  }
 }
