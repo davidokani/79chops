@@ -182,4 +182,13 @@
     .menu .box-container .box .image img {
         display: inline-flexbox;
     }
+
+    .menu .box-container {
+        width: 380px;
+        padding-left: 35px;
+    }
+
+    .menu .box-container {
+        padding-left: 35px;
+    }
 }
