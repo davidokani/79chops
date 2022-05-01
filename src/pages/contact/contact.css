@@ -1,4 +1,6 @@
-div3 {
+@import url('https: //images.app.goo.gl/XF4Cxi6xhcGsgNpT9');
+
+fieldset {
   background-image: url('https: //images.app.goo.gl/XF4Cxi6xhcGsgNpT9');
 }
 
@@ -12,12 +14,54 @@ p {
   padding: 16px 12px;
 }
 
-.contact-pic {
+.contact-pic,
+.content-input input,
+textarea {
   flex: 50%;
   border-radius: 10px;
   padding-left: 20px;
   background-size: cover;
   background-position: center center;
+}
+
+.container {
+
+  height: auto;
+
+  border-radius: .5rem;
+
+  padding: 2rem;
+
+  padding-left: 13px;
+
+  padding-right: 15px;
+
+  font-size: 1.6rem;
+
+  color: var(--black);
+
+  text-transform: none;
+
+  margin-bottom: 1rem;
+}
+
+.content-input input,
+textarea {
+
+  background: #eee;
+
+  border-radius: 2rem;
+
+  padding: 1rem;
+
+  font-size: 1.6rem;
+
+  color: var(--black);
+
+  text-transform: none;
+
+  margin-bottom: 1rem;
+
 }
 
 @media (max-width: 800px) {
