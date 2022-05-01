@@ -10,7 +10,7 @@
 }
 
 .dishes .box-container {
-    background-color: hsl(0, 332, 320);
+    background-color: hsl(10, 332, 320);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
@@ -165,4 +165,21 @@
     color: var(--green);
     margin-left: 1rem;
     font-size: 2.5rem;
+}
+
+@media (max-width: 800px) {
+
+    .menu .box-container,
+    .menu .box-container .box,
+    .dishes .box-container .box,
+    .dishes .box-container .box h3,
+    .dishes .box-container .box span {
+        width: 340px;
+        align-content: center;
+        padding-right: 25px;
+    }
+
+    .menu .box-container .box .image img {
+        display: inline-flexbox;
+    }
 }
