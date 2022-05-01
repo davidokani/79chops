@@ -3,12 +3,19 @@ import './home.css'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        I am still missing some information, can somebody work on me
-        please!!!!!!!!!!!!!!
-      </p>
+    <div className='homeContainer'>
+      <div className='homeLeftContainer'>
+        <h1 className='intro'>Welcome to 79chops</h1>
+        <p className='paraIntro'>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+          consectetur, quaerat obcaecati delectus nostrum voluptas consequatur
+          nam totam accusantium! Facere quisquam incidunt tempora, quidem
+          accusamus nulla culpa facilis ullam rem!
+        </p>
+      </div>
+      <div className='homeRightContainer'>
+        <img src='/images/pic5.jpg' alt='img5' />
+      </div>
     </div>
   )
 }

@@ -1,12 +1,7 @@
 import React from 'react'
 import './about.css'
-// import image1 from '/public/images/pic1.jpg'
-// import image2 from '/public/images/pic2.jpg'
-// import image3 from '../../../public/images/pic3.jpg'
-// import image4 from '/public/images/pic4.jpg'
-// import image5 from '/images/pic5.jpg'
 
-function App() {
+const About = () => {
   return (
     <div className='App'>
       <div className='content'>
@@ -71,4 +66,4 @@ function App() {
   )
 }
 
-export default App
+export default About

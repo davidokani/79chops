@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './contact.css'
 
 const Contact = () => {
@@ -83,13 +84,12 @@ const Contact = () => {
         <br />
         <button type='submit'>Subscribe</button>
       </fieldset>
-
       <h3>Stay in Touch!</h3>
-      <a href='#'>Instagram</a>
+      <Link to='#'>Instagram</Link>
       <br />
-      <a href='#'>Twitter</a>
+      <Link to='#'>Twitter</Link>
       <br />
-      <a href='#'>Linkedln</a>
+      <Link to='#'>Linkedln</Link>
       <br />
     </div3>
   )
