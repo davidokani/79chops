@@ -12,21 +12,21 @@ import BackDrop from './components/BackDrop/BackDrop'
 
 class App extends Component {
   state = {
-    sideDrawerOpen: false
-  };
+    sideDrawerOpen: false,
+  }
 
   toggleButtonClickHandler = () => {
     this.setState((prevState) => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
-    });
-  };
+      return { sideDrawerOpen: !prevState.sideDrawerOpen }
+    })
+  }
 
   backDropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false });
-  };
+    this.setState({ sideDrawerOpen: false })
+  }
 
   render() {
-    let backdrop;
+    let backdrop
 
     if (this.state.sideDrawerOpen) {
       backdrop = <BackDrop click={this.backDropClickHandler} />
@@ -37,8 +37,7 @@ class App extends Component {
         <Navbar drawerClickHandler={this.toggleButtonClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <main style={{ marginTop: '94px' }}>
-        </main>
+        <main style={{ marginTop: '94px' }}></main>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
@@ -47,7 +46,7 @@ class App extends Component {
         </Routes>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
@@ -66,4 +65,4 @@ class App extends Component {
 //   )
 // }
 
-export default App;
+export default App
